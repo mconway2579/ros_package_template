@@ -1,0 +1,10 @@
+<launch>
+    <!-- Publisher Node -->
+    <node name="publisher" pkg="sair_package_template" type="example_publisher.py" output="screen" />
+
+    <!-- Subscriber Node -->
+    <node name="subscriber" pkg="sair_package_template" type="example_subscriber.py" output="screen" />
+
+    <node name="rviz" pkg="rviz" type="rviz" args="-d /home/max/catkin_ws/src/sair_package_template/rviz/example_rviz_file.rviz" required="false"/>
+
+</launch>
