@@ -7,4 +7,6 @@
 
     <node name="rviz" pkg="rviz" type="rviz" args="-d /home/max/catkin_ws/src/sair_package_template/rviz/example_rviz_file.rviz" required="false"/>
 
+
+
 </launch>
